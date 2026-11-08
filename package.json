@@ -1,0 +1,39 @@
+{
+  "name": "copilotkit-generative-ui-example",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/aanthonymax/copilotkit-generative-ui-example#readme",
+  "bugs": {
+    "url": "https://github.com/aanthonymax/copilotkit-generative-ui-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aanthonymax/copilotkit-generative-ui-example.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@copilotkit/react-core": "^1.85.0",
+    "@copilotkit/runtime": "^1.85.0",
+    "@tanstack/ai": "^1.2.0",
+    "@tanstack/ai-openai": "^1.1.1",
+    "maplibre-gl": "^5.24.0",
+    "next": "^15.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.0"
+  }
+}
