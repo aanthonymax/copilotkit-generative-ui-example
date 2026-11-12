@@ -1,4 +1,4 @@
-# CopilotKit Generative UI Example
+# [CopilotKit](https://www.copilotkit.ai/) Generative UI Example
 
 ## Setup
 
