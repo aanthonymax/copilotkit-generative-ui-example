@@ -17,7 +17,7 @@ const agent = new BuiltInAgent({
     const { messages, systemPrompts, tools } = convertInputToTanStackAI(input);
 
     return chat({
-      adapter: openaiText("gpt-4o-mini"),
+      adapter: openaiText("gpt-6-luna"),
       messages,
       systemPrompts: [
         ...systemPrompts,
